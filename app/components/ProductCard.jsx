@@ -32,7 +32,7 @@ const ProductCard = (props) => {
       </div>
 
       <Link href={`/products/${_id}`} className="flex justify-center">
-        <CldImage
+        {/* <CldImage
           priority
           cloudname={process.env.CLOUDINARY_CLOUD_NAME}
           publicid={images}
@@ -41,7 +41,14 @@ const ProductCard = (props) => {
           width="300"
           height="300"
           crop="scale"
-        />
+        /> */}
+        
+<Image 
+  src="https://images.pexels.com/photos/128420/pexels-photo-128420.jpeg" 
+  alt="Fresh baby spinach" 
+  width={300} 
+  height={300} 
+/>
       </Link>
 
       <div className="flex-1 flex flex-col p-2">
