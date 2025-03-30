@@ -45,9 +45,9 @@ const ProductCard = (props) => {
         
 <Image 
   src={images} 
-  alt="Fresh baby spinach" 
+  alt={title} 
   width={300} 
-  height={300} 
+  height={100} 
 />
       </Link>
 
