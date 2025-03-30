@@ -9,7 +9,7 @@ const ProductList = () => {
   const filter = useSelector((state) => state.filter.filter); 
   const search = useSelector((state) => state.filter.search1);
 
-  ]
+  
 
   useEffect(() => {
     const fetchProductsData = async () => {
