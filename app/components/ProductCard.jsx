@@ -47,7 +47,8 @@ const ProductCard = (props) => {
   src={images} 
   alt={title} 
   width={300} 
-  height={100} 
+  height={200} 
+  className="w-full h-[200px] object-cover"
 />
       </Link>
 
